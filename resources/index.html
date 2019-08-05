@@ -1,0 +1,177 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="apple-touch-icon.png">
+<title>Yegor Timoshenko</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: black;
+    text-decoration-color: var(--mute-color);
+  }
+
+  a:hover {
+    text-decoration-color: var(--hover-color);
+  }
+
+  body {
+    --hover-color: hsl(15, 100%, 50%);
+    --mute-color: rgba(0, 0, 0, 0.25);
+
+    background: #ffa;
+    font-family: sans-serif;
+    font-size: 18px;
+
+    min-width: 20em;
+    max-width: 44em;
+
+    margin: auto;
+
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-bottom: .5em;
+  }
+
+  nav .left a {
+    margin-right: 2em;
+    text-decoration: none;
+  }
+
+  nav .left a:not(.selected):hover {
+    border-bottom: none;
+    color: var(--hover-color);
+  }
+
+  nav .left a.selected {
+    border-bottom: 2px solid black;
+  }
+
+  nav .right {
+    display: flex;
+    margin-left: auto;
+  }
+
+  nav .right a {
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  header {
+    border: 2px solid var(--mute-color);
+    margin-left: -1em;
+    margin-right: -1em;
+    padding: 1em;
+  }
+
+  p { margin-bottom: 1em }
+  p:last-child { margin-bottom: 0 }
+
+  .gitlab {
+    width: 33px;
+    height: 30px;
+    background: url(footer/gitlab.svg) no-repeat;
+  }
+
+  .gitlab:hover {
+    background: url(footer/hover/gitlab.svg) no-repeat;
+  }
+
+  .mastodon {
+    width: 28px;
+    height: 30px;
+    background: url(footer/mastodon.svg) no-repeat;
+  }
+
+  .mastodon:hover {
+    background: url(footer/hover/mastodon.svg) no-repeat;
+  }
+
+  .patreon {
+    width: 31px;
+    height: 30px;
+    background: url(footer/patreon.svg) no-repeat;
+  }
+
+  .patreon:hover {
+    background: url(footer/hover/patreon.svg) no-repeat;
+  }
+
+  .twitter {
+    width: 37px;
+    height: 30px;
+    background: url(footer/twitter.svg);
+  }
+
+  .twitter:hover {
+    background: url(footer/hover/twitter.svg);
+  }
+
+
+  .articles {
+    list-style: none;
+    margin-top: 2em;
+  }
+
+  .articles li {
+    margin-bottom: .7em;
+  }
+
+  .articles time {
+    color: var(--mute-color);
+    font-size: .7em;
+    margin-left: 1em;
+    margin-right: -2em;
+  }
+</style>
+
+<nav>
+  <div class="left">
+    <a class="selected">Articles</a>
+    <a href="#">Projects</a>
+  </div>
+  <div class="right">
+    <a class="gitlab" href="https://gitlab.com/yegortimoshenko" title="GitLab"></a>
+    <a class="patreon" href="https://patreon.com/yegortimoshenko" title="Patreon"></a>
+    <a class="twitter" href="https://twitter.com/yegortimoshenko" title="Twitter"></a>
+  </div>
+</nav>
+
+<header>
+  <p>
+    Hi, it's Yegor.
+  </p>
+  <p>
+    I'm a left-wing market anarchist and free software developer.
+    I focus my work on expanding agency that software provides to its end users.
+  </p>
+  <p>
+    I'm the current core <a href="https://prism-break.org">PRISM Break</a> maintainer.
+    I operate <a href="https://transumption.com">Transumption</a>, a declarative
+    infrastructure consultancy that contributes to <a href="https://nixos.org">Nix</a> ecosystem.
+  </p>
+  <p>
+  Reach me out at <a href="#">yegor@riseup.net</a>.
+  </p>
+</header>
+
+<main>
+  <ul class="articles">
+    <li><a href="articles/undeclared-infra">Infrastructure is an undeclared program</a><time>2019-02-02</time></li>
+  </ul>
+</main>

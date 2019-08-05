@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="31.175156"
+   height="30"
+   id="svg8926"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="patreon.svg">
+  <defs
+     id="defs8928" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.4269376"
+     inkscape:cx="-7.7076501"
+     inkscape:cy="2.6855263"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-left="0"
+     fit-margin-bottom="0"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8931">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1537.3545,288.15197)">
+    <g
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="g5537"
+       transform="matrix(0.05496519,0,0,0.05496519,1537.3545,-288.15197)">
+      <path
+         style="vector-effect:none;fill:#000000;fill-rule:nonzero"
+         inkscape:connector-curvature="0"
+         id="path5539"
+         d="m 567.18,204.59 c 0,112.992 -91.598,204.59 -204.59,204.59 C 249.598,409.18 158,317.582 158,204.59 158,91.5981 249.598,0 362.59,0 475.582,0 567.18,91.5981 567.18,204.59" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="g5543"
+       transform="matrix(0.05496519,0,0,0.05496519,1537.3545,-288.15197)">
+      <path
+         style="vector-effect:none;fill:#000000;fill-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path5545"
+         d="M 0,0 H 100 V 545.8 H 0 V 0" />
+    </g>
+  </g>
+</svg>
